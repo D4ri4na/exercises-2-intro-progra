@@ -5,9 +5,10 @@
 using namespace std;
 
 void exercise_1(string s1) {
-  int i;
-  for (i=0; i<=line.size();++i){
-    if(line[i]==' '){
+  string str;
+  getline(cin, str);
+  for (int i=0; i<=str.size();++i){
+    if(str[i]==' '){
       cout<<i<<endl;
     }
   }
