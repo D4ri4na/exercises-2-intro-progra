@@ -5,18 +5,13 @@
 using namespace std;
 
 void exercise_1(string s1) {
-
-  getline (cin, line);
-
-  cout << line << endl;
   int i;
-  for (i=0; i<line.size();++i){
+  for (i=0; i<=line.size();++i){
     if(line[i]==' '){
       cout<<i<<endl;
-      continue;
     }
   }
-  cout<<i<<endl;
+  cout<<str.size()<<endl;
 }
 
 void exercise_2(string s1) {
