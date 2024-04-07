@@ -34,11 +34,17 @@ void exercise_4(int n) {
   if (n < 0){
     cout << "El numero es negativo. Intentelo de nuevo" << endl;
   }
+  if else (n > 14){
+    cout << "El numero es muy grande. Intentelo de nuevo" << endl;
+  }
+  if else (n == 0){
+    cout << "1" << endl;
+  }
   else{
   for(int i=1 ; i <= n; ++i){
     result = result * i;
-    cout << result << endl;
   }
+  cout << result << endl;
   }
 }
 
