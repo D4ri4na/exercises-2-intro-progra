@@ -18,14 +18,14 @@ void exercise_2(string s1) {
 }
 
 void exercise_3(string s1) {
-  for (int i=0; i=s1.size();++i){
-    if(s1[i]=='1'){
-      cout<<"Om-nom-nom :P"<<endl;
-    }
-      else{
-        cout<< "No cake :("<<endl;
-      }
-   }
+  //for (int i=0; i=s1.size();++i){
+   // if(s1[i]=='1'){
+   //   cout<<"Om-nom-nom :P"<<endl;
+   // }
+   //   else{
+   //     cout<< "No cake :("<<endl;
+   //  }
+   //
 }
 
 void exercise_4(int n) {
@@ -37,7 +37,12 @@ void exercise_5(int n, int k) {
 }
 
 int exercise_6(int n) {
-  // TODO: YOUR CODE HERE
+  int sum=0;
+  while(n>0){
+    sum = sum + n10%;
+    n = n/10;
+  }
+  cout<<sum<<endl;
   return 0;
 }
 
