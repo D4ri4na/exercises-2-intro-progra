@@ -30,13 +30,13 @@ void exercise_3(string s1) {
 }
 
 void exercise_4(int n) {
-  int result = 0;
+  int result = 1;
   if (n < 0){
     cout << "El numero es negativo. Intentelo de nuevo" << endl;
   }
   else{
-  for(int i=0 ; i <= n; ++i){
-    result *= i;
+  for(int i=1 ; i <= n; ++i){
+    result = result * i;
     cout << result << endl;
   }
   }
