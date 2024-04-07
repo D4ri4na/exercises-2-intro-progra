@@ -73,8 +73,8 @@ void exercise_12() {
 long exercise_13(int n, int k) {
   int alg=0;
   int i;
-  for (i = 1; i<= n ; i++){
-    alg = pow(i,k);
+  for (i = 1; i<= n ; ++i){
+    alg += pow(i,k);
    } 
   return alg;
 }
