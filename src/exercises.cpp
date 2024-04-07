@@ -46,9 +46,12 @@ int exercise_6(int n) {
 }
 
 void exercise_7(int n) {
-  // TODO: YOUR CODE HERE
+  double sum;
+  for (int i = 1; i <= n; ++i){
+    sum += pow((-1), i + 1)/ i;
+  }
+  cout << sum << endl;
 }
-
 void exercise_8(string s) {
   // TODO: YOUR CODE HERE
 }
