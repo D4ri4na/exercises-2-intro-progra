@@ -42,8 +42,7 @@ int exercise_6(int n) {
     sum = sum + n%10;
     n = n/10;
   }
-  cout<<sum<<endl;
-  return 0;
+  return sum;
 }
 
 void exercise_7(int n) {
