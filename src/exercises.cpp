@@ -47,7 +47,7 @@ int exercise_6(int n) {
 
 void exercise_7(int n) {
   double sum;
-  for (int i = 1; i <= n =0 ; i++){
+  for (int i = 1; i >= n =0 ; i++){
     cout << "0" << endl;
   }
   for (int i = 1; i <= n ; i++){
