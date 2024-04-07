@@ -31,7 +31,7 @@ void exercise_3(string s1) {
 
 void exercise_4(int n) {
   int result = 0;
-  if (n>0){
+  if (n < 0){
     cout << "El numero es negativo. Intentelo de nuevo" << endl;
   }
   else{
