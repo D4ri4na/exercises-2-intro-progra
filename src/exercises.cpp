@@ -82,8 +82,8 @@ void exercise_7(int n) {
  //if(n == 0){
 //for (int i = 0; i == n ; i++){
   while (n==0){
-    cout << "0" << endl;
     break;
+    cout << "0" << endl;
     }
 // else{ 
   for (int i = 1; i <= n ; i++){
