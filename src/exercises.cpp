@@ -14,7 +14,18 @@ void exercise_1(string s1) {
 }
 
 void exercise_2(string s1) {
-  // TODO: YOUR CODE HERE
+  int = 0;
+  while ( i <= s1.size()){
+    char s1_char = s1[1];
+    if (s1_char==' ' || i==s1.size() && s1 != ""){
+      cout << '[' << s1 << ']' <<endl;
+      s1 = "";
+      }
+    else{
+      s1 = s1 + s1_char;
+      }
+      ++i;
+  }
 }
 
 void exercise_3(string s1) {
@@ -62,14 +73,14 @@ int exercise_6(int n) {
 }
 
 void exercise_7(int n) {
-  double sum;
+  double sum=0;
     for (int i = 0; i<= n ; i++){
     cout << "0" << endl;
     }
   for (int i = 1; i <= n ; i++){
     sum += pow((-1), i + 1)/ i;
   }
-   cout << sum << endl;
+   return sum;
 }
 void exercise_8(string s) {
   // TODO: YOUR CODE HERE
