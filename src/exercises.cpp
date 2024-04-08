@@ -83,6 +83,7 @@ void exercise_7(int n) {
 //for (int i = 0; i == n ; i++){
   while (n==0){
     cout << "0" << endl;
+    break;
     }
 // else{ 
   for (int i = 1; i <= n ; i++){
