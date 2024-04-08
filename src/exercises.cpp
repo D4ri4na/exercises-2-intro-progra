@@ -80,7 +80,8 @@ int exercise_6(int n) {
 void exercise_7(int n) {
  double sum=0;
  //if(n == 0){
-for (int i = 0; i == n ; i++){
+//for (int i = 0; i == n ; i++){
+  while (n==0){
     cout << "0" << endl;
     }
 // else{ 
