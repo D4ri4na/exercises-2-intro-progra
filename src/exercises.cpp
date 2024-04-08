@@ -14,7 +14,7 @@ void exercise_1(string s1) {
 }
 
 void exercise_2(string s1) {
-  int = 0;
+  int i= 0;
   while ( i <= s1.size()){
     char s1_char = s1[1];
     if (s1_char==' ' || i==s1.size() && s1 != ""){
