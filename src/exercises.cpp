@@ -14,25 +14,30 @@ void exercise_1(string s1) {
 }
 
 void exercise_2(string s1) {
-  int i= 0;
-  while ( i <= s1.size()){
-    char s1_char = s1[1];
-    if (s1_char==' ' || i==s1.size() && s1 != ""){
-      cout << '[' << s1 << ']' <<endl;
-      s1 = "";
-      }
-    else{
-      s1 = s1 + s1_char;
-      }
-      ++i;
+for (int i=0; i<=s1.size();++i){
+  char s1_char = s1[i];
+  cout <<s1_char;
+    }
+    //string s1;
+    //cin >> s1;
+    //char s1_char;
+    //for (int i=0; i <= s1.size(); i++){
+     //   char s1_char = s1[i];
+      //  cout <<s1_char;
   }
-}
+
 
 void exercise_3(string s1) {
-  //int 
-  //for (int i=1; i<=s1.size();++i){
+  //char s1_char;
+  //for (int i=1; i<=s1_char;++i){
    // if(s1[i]=='1'){
    //   cout<<"Om-nom-nom :P"<<endl;
+   //   if (s1[i]=='0'){
+   //   cout<<"Sin pastel :("<<endl;
+   //   }
+   // }
+   // if (s1[i]=='0'){
+   //   cout<<"Sin pastel :("<<endl;
    // }
    //   else{
    //     cout<< "No cake :("<<endl;
@@ -73,14 +78,14 @@ int exercise_6(int n) {
 }
 
 void exercise_7(int n) {
-  double sum=0;
-    for (int i = 0; i<= n ; i++){
-    cout << "0" << endl;
-    }
-  for (int i = 1; i <= n ; i++){
-    sum += pow((-1), i + 1)/ i;
-  }
-   cout<< sum<< endl;
+ // double sum=0;
+    //for (int i = 0; i<= n ; i++){
+   // cout << "0" << endl;
+   // }
+  //for (int i = 1; i <= n ; i++){
+  //  sum += pow((-1), i + 1)/ i;
+  //}
+  // cout<< sum<< endl;
 }
 void exercise_8(string s) {
   // TODO: YOUR CODE HERE
