@@ -80,7 +80,7 @@ void exercise_7(int n) {
   for (int i = 1; i <= n ; i++){
     sum += pow((-1), i + 1)/ i;
   }
-   return sum;
+   cout<< sum<< endl;
 }
 void exercise_8(string s) {
   // TODO: YOUR CODE HERE
