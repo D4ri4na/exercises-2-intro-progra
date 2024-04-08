@@ -63,13 +63,13 @@ int exercise_6(int n) {
 
 void exercise_7(int n) {
   double sum;
+    for (int i = 0; i<= n ; i++){
+    cout << "0" << endl;
+    }
   for (int i = 1; i <= n ; i++){
     sum += pow((-1), i + 1)/ i;
   }
    cout << sum << endl;
-    for (int i = 0; i<= n ; i++){
-    cout << "0" << endl;
-  }
 }
 void exercise_8(string s) {
   // TODO: YOUR CODE HERE
