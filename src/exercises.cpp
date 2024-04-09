@@ -124,8 +124,19 @@ long exercise_13(int n, int k) {
 }
 
 string exercise_14(int n) {
-  // TODO: YOUR CODE HERE
-  return "";
+  int copy=n;
+    int inverse = 0;
+   while(copy != 0 ){
+       inverse= inverse*10 + copy % 10;
+       copy = copy /10;
+   }
+    if (n==inverse){
+        cout <<"yes"<<endl;
+    }
+    else{
+        cout <<"no"<<endl;
+    }
+  //return "";
 }
 
 void exercise_15(int decimal) {
