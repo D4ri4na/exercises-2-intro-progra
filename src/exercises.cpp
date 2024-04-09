@@ -131,10 +131,10 @@ string exercise_14(int n) {
        copy = copy /10;
    }
     if (n==inverse){
-        cout <<"yes"<<endl;
+        cout <<"Es palindrome"<<endl;
     }
     else{
-        cout <<"no"<<endl;
+        cout <<"No es palindrome"<<endl;
     }
   //return "";
 }
