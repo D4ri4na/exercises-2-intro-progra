@@ -109,7 +109,7 @@ int contador=0;
       cout << "-2" <<endl;
    }
    else if (f == 1){
-      cout << "1"<<endl; 
+      cout << "-1"<<endl; 
    }
    else if (f == 2){
       for (int i=0; i<s.size();++i){
