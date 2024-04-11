@@ -131,7 +131,7 @@ if (a>0 && b> 0 && a!=b){
     int i=a;
     while (i>=1){
       if (a % i == 0 && b % i == 0){
-        cout<< i<<endl;
+        return i;
         break;
         }
         else{
@@ -141,10 +141,10 @@ if (a>0 && b> 0 && a!=b){
  }
  else{   
      if (a>b){
-        cout<<a; 
+        return a; 
      }
      else if (a<b){
-        cout<<b; 
+        return b; 
      }
  }
   //return i;
