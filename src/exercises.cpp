@@ -127,8 +127,8 @@ if (a>0 && b> 0 && a!=b){
     int aux = a;
     a=b;
     b=aux;
-    }
     int i=a;
+    }
     while (i>=1){
       if (a % i == 0 && b % i == 0){
         cout<< i<<endl;
