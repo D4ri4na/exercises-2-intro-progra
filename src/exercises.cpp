@@ -145,7 +145,7 @@ if (a>0 && b> 0 && a!=b){
         cout<<a; 
      }
  }
-  //return i;
+  return i;
 }
 
 void exercise_11() {
