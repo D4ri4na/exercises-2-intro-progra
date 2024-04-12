@@ -14,25 +14,15 @@ void exercise_1(string s1) {
 }
 
 void exercise_2(string s1) {
-//for (int i=0; i<=s1.size();++i){
-  //char s1_char = s1[i];
-  //cout <<s1_char;
-   // }
-    //string s1;
-    //cin >> s1;
-    //char s1_char;
-    //for (int i=0; i <= s1.size(); i++){
-     //   char s1_char = s1[i];
-      //  cout <<s1_char;
-      string sum_words;
+  string word;
    for (int i=0; i<s1.size();++i){
        if(s1[i] != ' '){
-           sum_words= "";
+           word= "";
            while (s1[i]!=' ' && i <s1.size()){
-               sum_words += s1[i];
+               word += s1[i];
                ++i;
            }
-           cout<<"["<< sum_words <<"]"<<endl;
+           cout<<"["<< word <<"]"<<endl;
        }
    }   
   }
