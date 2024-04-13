@@ -177,7 +177,7 @@ if (a>0 && b> 0 && a!=b){
 
 void exercise_11() {
   double num=1;
-    cout<< "U0 ="<<num<<endl;
+    cout<< "U0 = "<<num<<endl;
     cout<< "U"<<num<<" = "<<num<<endl;
     for (int i=1; i <10; i++){
         num=num /(i+1);
