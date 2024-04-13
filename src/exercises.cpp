@@ -107,7 +107,7 @@ void exercise_8(string s) {
         }
       } 
       int a=0;
-      int b=sinespacio.lenght()-1;
+      int b=sinespacio.length()-1;
     for (int i=0; 1 < sinespacio.length(); i++){
         if(sinespacio[a]==sinespacio[b]){
            a++;
