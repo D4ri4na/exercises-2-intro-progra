@@ -219,6 +219,7 @@ void exercise_15(int decimal) {
     for (int i = indice - 1; i >= 0; --i) {
         cout << binario[i];
     }
+    cout<<endl;
 }
 
 void exercise_16(int divident, int divider) {
