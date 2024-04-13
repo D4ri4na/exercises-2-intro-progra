@@ -95,7 +95,27 @@ void exercise_7(int n) {
 }
 
 void exercise_8(string s) {
-  // TODO: YOUR CODE HERE
+  string s_char = "";
+    string vacio = "";
+    if( s== vacio){
+        cout << "YES" << endl;
+       // break;
+    }
+    for (int i=0; s.size(); ++i){
+        if(s[i] != ' '){
+           s_char +=  s[i];
+        }
+    }
+    for(int i=0; i<s_char.size(); ++i){
+        if (s_char[i]==s_char[s_char.size() -1]){
+        cout << "YES" << endl;
+        break;
+    }
+    else {
+        cout << "NO" << endl;
+        break;
+    }
+    }
 }
 
 void exercise_9(string s) {
