@@ -189,12 +189,12 @@ void exercise_11() {
 
 void exercise_12() {
   double num=1;
-    cout<< "U"<<num<<"="<<num<<" "<<"V"<<num<<" = "<<"1"<<endl;
+    cout<< "U"<<num<<" = "<<num<<" "<<"V"<<num<<" = "<<"1"<<endl;
     for (int i=1; i <10; i++){
         num=num /(i+1);
         int n;
         n= i+1;
-       cout<< "U"<<n<<"="<<num<<" "<<"V"<<n<<" = "<<"1"<<endl; 
+       cout<< "U"<<n<<" = "<<num<<" "<<"V"<<n<<" = "<<"1"<<endl; 
     }
 }
 
