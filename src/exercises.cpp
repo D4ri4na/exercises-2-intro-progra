@@ -66,7 +66,6 @@ void exercise_4(int n) {
 }
 
 void exercise_5(int n, int k) {
-  string days[7] = {"  ", "  ", "  ", "  ", "  ", "  ", "  "};
     for (int i = 1; i < n; ++i) {
         cout << "   ";
     }
@@ -76,7 +75,10 @@ void exercise_5(int n, int k) {
     }
     cout << days;
         if ((n + days - 1) % 7 == 0 || days == k) {
-            cout << " "<<endl;
+            if (day == k){
+                cout  <<" ";
+            }
+          cout <<endl;
         } else {
             cout << " ";
         }
