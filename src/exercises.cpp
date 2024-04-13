@@ -95,26 +95,30 @@ void exercise_7(int n) {
 }
 
 void exercise_8(string s) {
-  string s_char = "";
   string vacio = "";
-    if( s== vacio){
+    if( s == vacio){
         cout << "YES" << endl;
        // break;
       }
-    for (int i=0; 1 < s.size(); ++i){
-        if(s[i] != ' '){
-           s_char +=  s[i];
+  string sinespacio;
+   for(int i=0; i< s.length(); i++){
+        if( s[i] != ' '){
+            sinespacio += s[i];
         }
-    }
-    for(int i=0; i<s_char.size(); ++i){
-        if (s_char[i]==s_char[s_char.size() -1]){
-        cout << "YES" << endl;
-        break;
-    }
-    else {
-        cout << "NO" << endl;
-        break;
-    }
+      } 
+      int a=0;
+      int b=sinespacio.lenght()-1;
+    for (int i=0; 1 < sinespacio.length(); i++){
+        if(sinespacio[a]==sinespacio[b]){
+           a++;
+           b--;
+           cout<<"YES"<<endl;
+           break;
+        }
+        else{
+          cout<<"NO"<<endl;
+          break;
+    }      
     }
 }
 
