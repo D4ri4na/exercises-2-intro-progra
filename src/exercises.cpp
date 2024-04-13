@@ -210,7 +210,10 @@ string exercise_14(int n) {
 void exercise_15(int decimal) {
   int binario[32]; 
     int indice = 0;
-
+    if(decimal==0){
+      cout << "0"<<endl;
+    }
+    else{
     while (decimal > 0) {
         binario[indice] = decimal % 2;
         decimal /= 2;
@@ -220,6 +223,7 @@ void exercise_15(int decimal) {
         cout << binario[i];
     }
     cout<<endl;
+}
 }
 
 void exercise_16(int divident, int divider) {
