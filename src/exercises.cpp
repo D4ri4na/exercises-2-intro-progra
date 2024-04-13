@@ -71,10 +71,10 @@ void exercise_5(int n, int k) {
         cout << "   ";
     }
     for (int days = 1; days <= k; ++days) {
-        if (n < 10){
+        if (day < 10){
         cout<<" ";
-        cout << days;
     }
+    cout << days;
         if ((n + days - 1) % 7 == 0 || days == k) {
             cout << endl;
         } else {
