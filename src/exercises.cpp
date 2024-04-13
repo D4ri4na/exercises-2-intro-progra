@@ -96,12 +96,12 @@ void exercise_7(int n) {
 
 void exercise_8(string s) {
   string s_char = "";
-    string vacio = "";
+  string vacio = "";
     if( s== vacio){
         cout << "YES" << endl;
        // break;
-    }
-    for (int i=0; s.size(); ++i){
+      }
+    for (int i=0; 1 < s.size(); ++i){
         if(s[i] != ' '){
            s_char +=  s[i];
         }
