@@ -226,28 +226,21 @@ void exercise_16(int divident, int divider) {
 }
 
 void exercise_17(int n) {
-   if (n != 0 && n != 1 && n !=4) {
-        for (int i=2 ; i < n/2;i++){
-            if (n % i == 0){
-                if (n == i){
-                    for (int i = 2; i<=n;i++){
-                        cout<<i<<endl;
-                        //if (primo(i))
-                    }
-                    }
-                 else{
-        cout<<"es falsa"<<endl;
-        break;
-                }  
-                //for (int i=2; i<=n;i++){
-                       // cout <<i<<" ";//primo = true;
-                }
-    else{
-        cout<<"es falsa"<<endl;
-        break;
-                }
-                }
-                }
+  int contador = 0;
+  int numero = 2;
+  while (contador < n) {
+    int divisores = 0;
+      for (int i = 1; i <= numero; ++i) {
+        if (numero % i == 0) {
+            ++divisores;
+          }
+        }
+        if (divisores == 2) {
+            cout << numero << " ";
+            ++contador;
+        }
+        ++numero;
+    }
 }
 
 void exercise_18_19(int debut, int fin) {
