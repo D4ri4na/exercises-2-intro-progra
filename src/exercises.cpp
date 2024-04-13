@@ -29,21 +29,21 @@ void exercise_2(string s1) {
 
 
 void exercise_3(string s1) {
-  //char s1_char;
-  //for (int i=1; i<=s1_char;++i){
-   // if(s1[i]=='1'){
-   //   cout<<"Om-nom-nom :P"<<endl;
-   //   if (s1[i]=='0'){
-   //   cout<<"Sin pastel :("<<endl;
-   //   }
-   // }
-   // if (s1[i]=='0'){
-   //   cout<<"Sin pastel :("<<endl;
-   // }
-   //   else{
-   //     cout<< "No cake :("<<endl;
-   //  }
-   //
+  string s1_char = "";
+     for (int i=0; i<s1.size();++i){
+         if(s1[i] !=' '){
+            s1_char +=  s1[i];
+         }
+     }
+    for (int i=0; i<= 9;++i){ 
+        if(s1_char[i] =='1'){ 
+            cout<<"Om-nom-nom :P"<<endl;
+        }
+        else if(s1_char[i] =='0'){ 
+            cout<<"No cake :("<<endl;
+            break;
+        } 
+  }
 }
 
 void exercise_4(int n) {
