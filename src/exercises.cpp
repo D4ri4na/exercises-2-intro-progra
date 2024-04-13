@@ -208,7 +208,17 @@ string exercise_14(int n) {
 }
 
 void exercise_15(int decimal) {
-  // TODO: YOUR CODE HERE
+  int binario[32]; 
+    int indice = 0;
+
+    while (decimal > 0) {
+        binario[indice] = decimal % 2;
+        decimal /= 2;
+        indice++;
+    }
+    for (int i = indice - 1; i >= 0; --i) {
+        cout << binario[i];
+    }
 }
 
 void exercise_16(int divident, int divider) {
