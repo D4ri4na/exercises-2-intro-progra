@@ -293,7 +293,7 @@ void exercise_18_19(int debut, int fin) {
 for (int i=debut; i<=fin; i++) {
   int count = 0;
     int temp = i;
-    if (debut<0){
+    if (debut<=0){
     cout <<"El numero debe de ser positivo y mayor a zero"<<endl;
     break;
     }
