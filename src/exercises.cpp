@@ -317,3 +317,4 @@ for (int i=debut; i<=fin; i++) {
   cout<<i<<"->"<<count<<endl;
 }
 }
+}
