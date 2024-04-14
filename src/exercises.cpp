@@ -96,25 +96,20 @@ int exercise_6(int n) {
 
 void exercise_7(int n) {
  double sum=0;
- //if(n == 0){
-//for (int i = 0; i == n ; i++){
   while (n==0){
     break;
     cout << "0" << endl;
     }
-// else{ 
   for (int i = 1; i <= n ; i++){
    sum += pow((-1), i + 1)/ i;
   }
    cout<< sum<< endl;
-  //}
 }
 
 void exercise_8(string s) {
   string vacio = "";
     if( s == vacio){
         cout << "YES" << endl;
-       // break;
       }
   string sinespacio;
    for(int i=0; i< s.length(); i++){
@@ -188,7 +183,6 @@ if (a>0 && b> 0 && a!=b){
         return b; 
      }
  }
-  //return i;
 }
 
 void exercise_11() {
