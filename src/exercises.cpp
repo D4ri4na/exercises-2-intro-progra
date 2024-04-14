@@ -290,5 +290,29 @@ void exercise_17(int n) {
 }
 
 void exercise_18_19(int debut, int fin) {
-  // TODO: YOUR CODE HERE
+  int count = 0;
+    int temp = i;
+    if (debut<0){
+    cout <<"El numero debe de ser positivo y mayor a zero"<<endl;
+    break;
+    }
+    else if (fin<debut){
+    cout <<"El numero de fin no debe de ser menor al inicial"<<endl;
+    break;
+    }
+    else{
+    while(temp!=0){
+    if(temp%3==0){
+        temp += 4;
+    }
+     else if( temp%4==0){
+        temp /= 2;
+     }
+     else {
+        temp -= 1;
+    }
+    count++;
+}
+  cout<<i<<"->"<<count<<endl;
+}
 }
