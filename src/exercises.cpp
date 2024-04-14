@@ -290,17 +290,16 @@ void exercise_17(int n) {
 }
 
 void exercise_18_19(int debut, int fin) {
+  if (fin<debut){
+    cout <<"El numero de fin no debe de ser menor al inicial"<<endl;
+    }
 for (int i=debut; i<=fin; i++) {
   int count = 0;
     int temp = i;
     if (debut<=0){
     cout <<"El numero debe de ser positivo y mayor a zero"<<endl;
     break;
-    }
-    else if (fin<debut){
-    cout <<"El numero de fin no debe de ser menor al inicial"<<endl;
-    break;
-    }
+    } 
     else{
     while(temp!=0){
     if(temp%3==0){
