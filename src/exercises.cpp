@@ -290,6 +290,7 @@ void exercise_17(int n) {
 }
 
 void exercise_18_19(int debut, int fin) {
+for (int i=debut; i<=fin; i++) {
   int count = 0;
     int temp = i;
     if (debut<0){
